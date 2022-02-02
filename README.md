@@ -6,3 +6,5 @@
 ![workflow](https://github.com/popova-iu-iu/frontend-project-lvl1/actions/workflows/github-actions.yml/badge.svg)
 
 [![asciicast](https://asciinema.org/a/7CtPrIjZJrSP5D735Al5gIX4k.svg)](https://asciinema.org/a/7CtPrIjZJrSP5D735Al5gIX4k)
+
+[![asciicast](https://asciinema.org/a/lngjhgeuRmFTEZCw0hZLVX1Xp.svg)](https://asciinema.org/a/lngjhgeuRmFTEZCw0hZLVX1Xp)
