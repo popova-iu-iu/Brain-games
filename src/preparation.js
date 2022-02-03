@@ -14,7 +14,7 @@ const game = (createLap, target) => {
     const userAnswer = readlineSync.question('Your answer: ');
 
     if (userAnswer !== goodAnswer.toString()) {
-      return `"${userAnswer}" is wrong answer;(. Correct answer was "${goodAnswer}".\nLet's try again, ${name}!`;
+      return console.log(`"${userAnswer}" is wrong answer;(. Correct answer was "${goodAnswer}".\nLet's try again, ${name}!`);
     }
     console.log('Correct!');
   }
