@@ -13,7 +13,7 @@ const game = (createLap, target) => {
     console.log(question);
     const userAnswer = readlineSync.question('Your answer: ');
 
-    if (userAnswer != goodAnswer) {
+    if (userAnswer !== goodAnswer) {
       return console.log(`"${userAnswer}" is wrong answer;(. Correct answer was "${goodAnswer}".\nLet's try again, ${name}!`);
     }
     console.log('Correct!');
