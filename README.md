@@ -7,31 +7,31 @@
 
 ---
 
-###Brain games
-#####5 console games for training math thinking
+### Brain games
+##### 5 console games for training math thinking
 
 - Install games
 - Clone this repository
 - Run: make install
 - Run: npm link
 
-####Brain-even
+#### Brain-even
 run: brain-even
 [![asciicast](https://asciinema.org/a/ziABOnxZ91Ic3pCJJg9oP0aeZ.svg)](https://asciinema.org/a/ziABOnxZ91Ic3pCJJg9oP0aeZ)
 
-####Brain-calc
+#### Brain-calc
 run: brain-calc
 [![asciicast]( https://asciinema.org/a/BgPuM7r18x7cYmsjKUENGYpW8.svg)]( https://asciinema.org/a/BgPuM7r18x7cYmsjKUENGYpW8)
 
-####Brain-gcd
+#### Brain-gcd
 run: brain-gcd
 [![asciicast](https://asciinema.org/a/LJDlw0V8zYGGO9usxNAUYHxQx.svg)](https://asciinema.org/a/LJDlw0V8zYGGO9usxNAUYHxQx)
 
-####Brain-progression
+#### Brain-progression
 run: brain-progression
 [![asciicast](https://asciinema.org/a/3sb0KK6vXAiXanknCVsPMh5SS.svg)](https://asciinema.org/a/3sb0KK6vXAiXanknCVsPMh5SS)
 
-####Brain-prime
+#### Brain-prime
 run: brain-prime
 [![asciicast]( https://asciinema.org/a/wMlbGjKtamcTt1B1uuqhpeYtP.svg)]( https://asciinema.org/a/wMlbGjKtamcTt1B1uuqhpeYtP)
 
