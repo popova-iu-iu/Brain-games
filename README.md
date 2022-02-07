@@ -10,11 +10,12 @@
 ### Brain games
 ##### 5 console games for training math thinking
 
-- Install games
+##### Install games:
 - Clone this repository
 - Run: make install
 - Run: npm link
 
+---
 
 #### Brain-even
 
