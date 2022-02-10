@@ -13,7 +13,7 @@ const calculate = (number1, operator, number2) => {
     case '*':
       return number1 * number2;
     default:
-      return false;
+      throw new Error('unsopported operator');
   }
 };
 
