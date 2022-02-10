@@ -14,7 +14,7 @@ const isPrime = (number) => {
 };
 
 const createLap = () => {
-  const randomNum = getRandom(0, 50);
+  const randomNum = getRandom(1, 50);
   const trueAnswer = isPrime(randomNum);
   const question = `Question: ${randomNum}`;
   return [question, trueAnswer];
