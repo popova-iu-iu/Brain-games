@@ -14,7 +14,7 @@ const calculate = (number1, operator, number2) => {
   }
 };
 
-const createLap = () => {
+const generateRound = () => {
   const operators = ['+', '-', '*'];
   const indexOfOperators = getRandom(0, 2);
 
@@ -31,7 +31,7 @@ const createLap = () => {
 const startCalc = () => {
   const target = 'What is the result of expression?';
 
-  game(createLap, target);
+  game(generateRound, target);
 };
 
 export default startCalc;

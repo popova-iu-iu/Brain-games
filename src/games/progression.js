@@ -11,7 +11,7 @@ const progression = (begin, step) => {
   return progressArr;
 };
 
-const createLap = () => {
+const generateRound = () => {
   const num1 = getRandom(0, 20);
   const step = getRandom(2, 10);
   const progressData = progression(num1, step);
@@ -26,7 +26,7 @@ const createLap = () => {
 const startProgression = () => {
   const target = 'What number is missing in the progression?';
 
-  game(createLap, target);
+  game(generateRound, target);
 };
 
 export default startProgression;

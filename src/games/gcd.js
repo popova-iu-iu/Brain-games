@@ -8,7 +8,7 @@ const gcd = (firstNum, secondNum) => {
   return gcd(secondNum, firstNum % secondNum);
 };
 
-const createLap = () => {
+const generateRound = () => {
   const num1 = getRandom(0, 20);
   const num2 = getRandom(0, 20);
 
@@ -20,7 +20,7 @@ const createLap = () => {
 const startGcd = () => {
   const target = 'Find the greatest common divisor of given numbers.';
 
-  game(createLap, target);
+  game(generateRound, target);
 };
 
 export default startGcd;

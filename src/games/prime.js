@@ -13,7 +13,7 @@ const isPrime = (number) => {
   return 'yes';
 };
 
-const createLap = () => {
+const generateRound = () => {
   const randomNum = getRandom(1, 50);
   const trueAnswer = isPrime(randomNum);
   const question = `Question: ${randomNum}`;
@@ -23,7 +23,7 @@ const createLap = () => {
 const startPrime = () => {
   const target = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-  game(createLap, target);
+  game(generateRound, target);
 };
 
 export default startPrime;
