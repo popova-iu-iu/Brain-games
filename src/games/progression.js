@@ -15,7 +15,7 @@ const createLap = () => {
   const num1 = getRandom(0, 20);
   const step = getRandom(2, 10);
   const progressData = progression(num1, step);
-  const randomNum = getRandom(0, progressData.length);
+  const randomNum = getRandom(0, progressData.length - 1);
 
   const trueAnswer = String(progressData[randomNum]);
   progressData[randomNum] = '..';
