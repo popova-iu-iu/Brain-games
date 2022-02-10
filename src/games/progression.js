@@ -1,6 +1,8 @@
 import game from '../index.js';
 import getRandom from '../utils.js';
 
+const gameDescription = 'What number is missing in the progression?';
+
 const progression = (begin, step) => {
   const progressArr = [];
   let k = 0;
@@ -23,10 +25,6 @@ const generateRound = () => {
   return [question, trueAnswer];
 };
 
-const startProgression = () => {
-  const gameDescription = 'What number is missing in the progression?';
-
-  game(generateRound, gameDescription);
-};
+const startProgression = () => game(generateRound, gameDescription);
 
 export default startProgression;
