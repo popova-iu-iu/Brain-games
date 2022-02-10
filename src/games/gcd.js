@@ -18,9 +18,9 @@ const generateRound = () => {
 };
 
 const startGcd = () => {
-  const target = 'Find the greatest common divisor of given numbers.';
+  const gameDescription = 'Find the greatest common divisor of given numbers.';
 
-  game(generateRound, target);
+  game(generateRound, gameDescription);
 };
 
 export default startGcd;

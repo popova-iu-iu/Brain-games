@@ -21,9 +21,9 @@ const generateRound = () => {
 };
 
 const startPrime = () => {
-  const target = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+  const gameDescription = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-  game(generateRound, target);
+  game(generateRound, gameDescription);
 };
 
 export default startPrime;

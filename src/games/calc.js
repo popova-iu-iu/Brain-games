@@ -29,9 +29,9 @@ const generateRound = () => {
 };
 
 const startCalc = () => {
-  const target = 'What is the result of expression?';
+  const gameDescription = 'What is the result of expression?';
 
-  game(generateRound, target);
+  game(generateRound, gameDescription);
 };
 
 export default startCalc;

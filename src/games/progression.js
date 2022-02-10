@@ -24,9 +24,9 @@ const generateRound = () => {
 };
 
 const startProgression = () => {
-  const target = 'What number is missing in the progression?';
+  const gameDescription = 'What number is missing in the progression?';
 
-  game(generateRound, target);
+  game(generateRound, gameDescription);
 };
 
 export default startProgression;
