@@ -11,7 +11,7 @@ const generateRound = () => {
   const randomNum = getRandom(0, 100);
   const trueAnswer = getTrueAnswer(randomNum);
   const question = `Question: ${randomNum}`;
-  return [question, trueAnswer];
+  return [trueAnswer, question];
 };
 
 const startEven = () => game(generateRound, gameDescription);

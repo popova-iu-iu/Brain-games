@@ -22,7 +22,7 @@ const generateRound = () => {
   const trueAnswer = String(progressData[randomNum]);
   progressData[randomNum] = '..';
   const question = `Question: ${progressData.join(' ')}`;
-  return [question, trueAnswer];
+  return [trueAnswer, question];
 };
 
 const startProgression = () => game(generateRound, gameDescription);

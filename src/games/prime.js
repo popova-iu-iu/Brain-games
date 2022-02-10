@@ -19,7 +19,7 @@ const generateRound = () => {
   const randomNum = getRandom(1, 50);
   const trueAnswer = isPrime(randomNum);
   const question = `Question: ${randomNum}`;
-  return [question, trueAnswer];
+  return [trueAnswer, question];
 };
 
 const startPrime = () => game(generateRound, gameDescription);

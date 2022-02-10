@@ -16,7 +16,7 @@ const generateRound = () => {
 
   const trueAnswer = String(gcd(num1, num2));
   const question = `Question: ${num1} ${num2}`;
-  return [question, trueAnswer];
+  return [trueAnswer, question];
 };
 
 const startGcd = () => game(generateRound, gameDescription);
