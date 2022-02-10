@@ -1,7 +1,7 @@
 import game from '../index.js';
 import getRandom from '../utils.js';
 
-const randomExample = (number1, operator, number2) => {
+const calculate = (number1, operator, number2) => {
   switch (operator) {
     case '+':
       return number1 + number2;
@@ -23,7 +23,7 @@ const createLap = () => {
 
   const randomOperator = operators[indexOfOperators];
 
-  const trueAnswer = String(randomExample(num1, randomOperator, num2));
+  const trueAnswer = String(calculate(num1, randomOperator, num2));
   const question = `Question: ${num1} ${operators[indexOfOperators]} ${num2}`;
   return [question, trueAnswer];
 };
