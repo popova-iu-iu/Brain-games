@@ -16,7 +16,7 @@ const randomExample = (number1, operator, number2) => {
 
 const createLap = () => {
   const operators = ['+', '-', '*'];
-  const indexOfOperators = getRandom(0, 3);
+  const indexOfOperators = getRandom(0, 2);
 
   const num1 = getRandom(0, 10);
   const num2 = getRandom(0, 10);
