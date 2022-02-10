@@ -6,8 +6,8 @@ const gameDescription = 'Answer "yes" if given number is prime. Otherwise answer
 const isPrime = (number) => {
   const count = Math.sqrt(number);
   const countRound = Math.round(count);
-  for (let i = 2; i <= countRound;) {
-    if (number % i === 0 || number === 1) {
+  for (let i = 2; i < countRound;) {
+    if (number % i === 0) {
       return 'no';
     }
     i += 1;
