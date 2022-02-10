@@ -1,6 +1,9 @@
 import game from '../index.js';
 import getRandom from '../utils.js';
 
+const gameDescription = 'What is the result of expression?';
+const operators = ['+', '-', '*'];
+
 const calculate = (number1, operator, number2) => {
   switch (operator) {
     case '+':
@@ -15,7 +18,6 @@ const calculate = (number1, operator, number2) => {
 };
 
 const generateRound = () => {
-  const operators = ['+', '-', '*'];
   const indexOfOperators = getRandom(0, 2);
 
   const num1 = getRandom(0, 10);
@@ -28,10 +30,6 @@ const generateRound = () => {
   return [question, trueAnswer];
 };
 
-const startCalc = () => {
-  const gameDescription = 'What is the result of expression?';
-
-  game(generateRound, gameDescription);
-};
+const startCalc = () => game(generateRound, gameDescription);
 
 export default startCalc;
