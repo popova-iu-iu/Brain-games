@@ -1,5 +1,5 @@
 import { game } from '../index.js';
-import { getRandom } from '../utils.js';
+import getRandom from '../utils.js';
 
 const progression = (begin, step) => {
   const progressArr = [];

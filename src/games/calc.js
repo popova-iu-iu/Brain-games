@@ -1,5 +1,5 @@
 import { game } from '../index.js';
-import { getRandom } from '../utils.js';
+import getRandom from '../utils.js';
 
 const randomExample = (number1, operator, number2) => {
   switch (operator) {
