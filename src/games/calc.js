@@ -27,7 +27,7 @@ const generateRound = () => {
 
   const trueAnswer = String(calculate(num1, randomOperator, num2));
   const question = `Question: ${num1} ${operators[indexOfOperators]} ${num2}`;
-  return [question, trueAnswer];
+  return [trueAnswer, question];
 };
 
 const startCalc = () => game(generateRound, gameDescription);
