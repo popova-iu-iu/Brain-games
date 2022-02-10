@@ -17,7 +17,7 @@ const createLap = () => {
   const progressData = progression(num1, step);
   const randomNum = getRandom(0, progressData.length);
 
-  const trueAnswer = progressData[randomNum];
+  const trueAnswer = String(progressData[randomNum]);
   progressData[randomNum] = '..';
   const question = `Question: ${progressData.join(' ')}`;
   return [question, trueAnswer];

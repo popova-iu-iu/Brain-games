@@ -12,7 +12,7 @@ const createLap = () => {
   const num1 = getRandom(0, 20);
   const num2 = getRandom(0, 20);
 
-  const trueAnswer = gcd(num1, num2);
+  const trueAnswer = String(gcd(num1, num2));
   const question = `Question: ${num1} ${num2}`;
   return [question, trueAnswer];
 };
