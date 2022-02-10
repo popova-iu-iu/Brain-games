@@ -1,6 +1,8 @@
 import game from '../index.js';
 import getRandom from '../utils.js';
 
+const gameDescription = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+
 const isPrime = (number) => {
   const count = Math.sqrt(number);
   const countRound = Math.round(count);
@@ -20,10 +22,6 @@ const generateRound = () => {
   return [question, trueAnswer];
 };
 
-const startPrime = () => {
-  const gameDescription = 'Answer "yes" if given number is prime. Otherwise answer "no".';
-
-  game(generateRound, gameDescription);
-};
+const startPrime = () => game(generateRound, gameDescription);
 
 export default startPrime;
