@@ -1,4 +1,4 @@
-import { game } from '../index.js';
+import game from '../index.js';
 import getRandom from '../utils.js';
 
 const isPrime = (number) => {
