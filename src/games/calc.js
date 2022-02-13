@@ -26,7 +26,7 @@ const generateRound = () => {
   const randomOperator = operators[indexOfOperators];
 
   const trueAnswer = String(calculate(num1, randomOperator, num2));
-  const question = `Question: ${num1} ${operators[indexOfOperators]} ${num2}`;
+  const question = `Question: ${num1} ${randomOperator} ${num2}`;
   return [trueAnswer, question];
 };
 
