@@ -5,19 +5,19 @@ const gameDescription = 'Answer "yes" if given number is prime. Otherwise answer
 
 const isPrime = (number) => {
   if (number <= 1) {
-    return 'no';
+    return false;
   }
   for (let i = 2; i < Math.sqrt(number); i += 1) {
     if (number % i === 0) {
-      return 'no';
+      return false;
     }
   }
-  return 'yes';
+  return true;
 };
 
 const generateRound = () => {
   const randomNum = getRandom(0, 50);
-  const trueAnswer = isPrime(randomNum);
+  const trueAnswer = isPrime(randomNum) ? 'yes' : 'no';
   const question = `Question: ${randomNum}`;
   return [trueAnswer, question];
 };
